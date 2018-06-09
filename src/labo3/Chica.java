@@ -99,7 +99,7 @@ public class Chica extends JPanel{
            if (x ==1000)
            {
                System.out.println("jejeje .. boys !! boys !!   " + pos);
-               sleep(3000);
+               sleep(500);
                usov_s.P();
                     Total.setCapacidad(Total.getCapacidad()-1);
                     BloqChicas.V(); Chicas.V();

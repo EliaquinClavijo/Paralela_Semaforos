@@ -36,11 +36,11 @@ public class Labo3 extends JFrame {
         {
             if (Personas[i]==1)
             {
-                Lista[i]= new Chico(B,init, 180, 5,i+1,aforo,usov,usov_s,usoM,BloqChicas);init-=40;
+                Lista[i]= new Chico(B,init, 180, 3,i+1,aforo,usov,usov_s,usoM,BloqChicas);init-=40;
             }
             else
             {
-                Lista[i]= new Chica(B,init, 180, 3,i+1,usov,usov_s,Chicas,usoM,BloqChicas);init-=40;
+                Lista[i]= new Chica(B,init, 180, 1,i+1,usov,usov_s,Chicas,usoM,BloqChicas);init-=40;
             }
         }
         Panel_Baño  G = new Panel_Baño(Lista);
