@@ -98,9 +98,9 @@ public class Chico extends JPanel{
            if (x < 1000){x = x+2;}
            if (x ==1000)
            {
-               x = (int) (Math.random() * 100) + 990;
+               x = (int) (Math.random() * 100) + 940;
                y = (int) (Math.random() * 350) + 1;
-               sleep((int) (Math.random() * 4000) + 3000);
+               sleep((int) (Math.random() * 7000) + 500);
                usov_s.P();
                     Total.setCapacidad(Total.getCapacidad()-1);
                     

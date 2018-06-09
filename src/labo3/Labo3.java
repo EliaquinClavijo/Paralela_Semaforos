@@ -36,7 +36,7 @@ public class Labo3 extends JFrame {
         {
             if (Personas[i]==1)
             {
-                Lista[i]= new Chico(B,init, 180, 3,i+1,aforo,usov,usov_s,usoM,BloqChicas);init-=40;
+                Lista[i]= new Chico(B,init, 180, 2,i+1,aforo,usov,usov_s,usoM,BloqChicas);init-=40;
             }
             else
             {

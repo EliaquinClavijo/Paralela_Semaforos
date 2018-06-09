@@ -83,7 +83,7 @@ public class Chica extends JPanel{
          if (statute == 1){  
           if (start == 0){
               Chicas.P();
-              System.out.println("Im a lucky girl  c:" + Total.getCapacidad());
+              System.out.println("Im a lucky girl  :" + Total.getCapacidad());
               if (Total.getCapacidad() > 0)
               {
                   System.out.println("Ups .. Those boys >:u  " + pos);
